@@ -1,0 +1,106 @@
+body {
+    /*opacity: 1;*/
+    /*filter: alpha(opacity=50);*/
+    background-size:cover;
+    background: #aa00ff;
+    background-image: url("behzadwall.png");
+    background-size: 100%;
+  }
+
+  .all{
+      position: relative;
+      left: -20px;
+  }
+
+  .logo{
+      position: relative;
+      width: 70px;
+      margin-left: 140px;
+  }
+
+  .login {
+    background: white;
+    border: 1px solid #c4c4c4;
+    border-radius: 15px;
+  }
+
+  .logo-login{
+      margin: 20px auto;
+    margin-top: 50px;
+    width: 300px;
+    padding: 30px 25px;
+  }
+
+  h1.login-title {
+      border: none;
+    margin: -28px -25px 25px;
+    padding: 15px 25px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #aa00ff;
+    text-align:center;
+    background: transparent;
+      margin: -10px -10px -17px;
+  }
+
+  .login-input {
+    width: 255px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left:35px;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+      margin-bottom: -19px;
+  }
+  .login-input:focus {
+      border-color:#6e8095;
+      outline: none;
+    }
+  .login-button {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #aa00ff;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer; 
+    outline:0;
+      margin-top: 48px;
+margin-left: -4px;
+  }
+
+  .login-lost
+  {
+      position: relative;
+    text-align:center;
+    margin-bottom:0px;
+      color: darkgray;
+  }
+
+  .last2{
+      top: -60px;
+      left: 5px;
+  }
+
+  .login-lost a
+  {
+    color:#aa00ff;
+    text-decoration:none;
+    font-size:13px;
+  }
+
+  .fas{
+      position: relative;
+      left: 10px;
+      top: 48px;
+  }
+
+  .icons{
+      color: #aa00ff;
+  }

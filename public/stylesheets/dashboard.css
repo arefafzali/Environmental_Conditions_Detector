@@ -1,0 +1,107 @@
+	*,
+	*::before,
+	*::after {
+	    padding: 0;
+	    margin: 0;
+	    box-sizing: border-box;
+	}
+
+	ul {
+	    list-style: none;
+	}
+
+	body {
+	    min-height: 100vh;
+	    background-size:cover;
+	    font-family: 'Open Sans', sans-serif;
+	    /*background: #ffa500;*/
+	    
+	    background-image: url("behzadwall.png");
+	    display: flex;
+	}
+
+	aside {
+	    width: 85px;
+	    background: #fff;
+	    text-align: center; 
+	    padding: 20px 0;
+	    border-right: 1px solid #d7d7d7;
+	    z-index: 10;
+	}
+
+	aside li {
+	    color: #bcbcbc;
+	    font-size: 1.4rem;
+	    padding: 15px 0;
+	    cursor: pointer;
+	}
+
+	.main-content {
+	    flex-grow: 1;
+	    display: flex;
+	    flex-direction: column;
+	}
+
+	nav {
+	    height: 45px;
+	    background: #fff;
+
+	    border-bottom: 1px solid #d7d7d7;
+	    box-shadow: 0px 7px 20px 4px #0000000f;
+	}
+
+	nav ul {
+	    display: flex;
+	    flex-direction: row-reverse;
+	    height: 100%;
+	    padding: 0 20px;
+	}
+
+	nav ul li {
+	    display: flex;
+	    align-items: center;
+	    padding: 0 25px;
+	    border-left: 1px solid gainsboro;
+	    color: #9d9d9d;
+	    cursor: pointer;
+	}
+
+	main {
+		text-align: center;
+		/*align: center;*/
+	}
+
+	iframe {
+		padding: 25px 25px 25px 25px;
+		margin:  25px 25px 25px 25px;
+	}
+
+	h3 {
+		text-align: right;
+		direction: rtl;
+	}
+
+	h2 {
+		text-align: center;
+		border-top-style: groove;
+	}
+
+	.notification {
+	    position: relative;
+	}
+
+	.notification::before {
+	    content: '';
+	    display: block;
+	    position: absolute;
+	    background: #38e738;
+	    width: 8px;
+	    height: 8px;
+	    border-radius: 50%;
+	    left: 34px;
+	    top: 11px;
+	}
+
+	.user-info span {
+	    padding: 0 20px 0 5px;
+	}

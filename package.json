@@ -1,0 +1,32 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "description": "to turn on a LED via internet. server: heroku",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BehzadShayegh/turnonmyled.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BehzadShayegh/turnonmyled/issues"
+  },
+  "homepage": "https://github.com/BehzadShayegh/turnonmyled#readme",
+  "dependencies": {
+    "Express": "^3.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cool-ascii-faces": "^1.3.4",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.2",
+    "njwt": "^0.4.0",
+    "package-lock.json": "^1.0.0",
+    "require": "^2.4.20",
+    "router": "^1.3.3"
+  }
+}

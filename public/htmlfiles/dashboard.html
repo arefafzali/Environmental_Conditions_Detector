@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IOT - Fall 97</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/dashboard.css">
+
+</head>
+
+
+
+<body>
+    <aside>
+        <ul>
+            <li class="js-logout">
+                <i class="fas fa-sign-out-alt"></i>
+            </li>
+        </ul>
+    </aside>
+
+    <div class="main-content">
+        <nav>
+            <ul>
+                <input type="button" value="logout" class="logout-button js-button" onclick="logout()" >
+                <li class="user-info">
+                    <i class="fas fa-user"></i>
+                    <span>Hello <span id="js-username">Group Name</span></span>
+                </li>
+                <li class="notification"><i class="fas fa-bell"></i></li>
+            </ul>
+        </nav>
+        <main>
+        	<h2><em>Descriptions:</h2><br><h3>کلاس iot از دو بخش تشکیل شده بود.
+بخش سخت افزاری و بخش نرم افزاری
+بخش سخت افزاری نحوه کار با nodmcu  و arduino بود که ازمایش هایی مانند سنسور دما و روشن کردن چراغ با زمان مشخص جز این بخش بود.
+بخش نرم افزاری اموزش html,css,nodJs, javascript بود که با این اموزش ها توانستیم سایتی رو بالا بیاریم.
+</h3><br><br><h2>Project:</h2><br><h3>
+بخش سخت افزاری پروژه ((دریافت دما ، تعداد بازدید های سایت ، دریافت فاصله و درصد co2 )) و نمایش ان در سرور است که باید هر چند ثانیه اپدیت شود
+بخش نرم افزاری بالا اوردین سایتی برای ثبت فرد یا گروه است...</em><br><br></h3>
+
+            <p id="user1"></p>
+            <p id="user2"></p>
+            <p id="user3"></p>
+            <p id="user4"></p>
+            <p id="user5"></p>
+            <p id="user6"></p>
+            <p id="user7"></p>
+            <p id="user8"></p>
+            <p id="user9"></p>
+            <p id="user10"></p>
+            <h2>Graphs:</h2>
+
+
+        	<iframe width="600" height="300" id="nemodar1"> </iframe>
+        	<iframe width="600" height="300" id="nemodar2"> </iframe>
+        	<iframe width="600" height="300" id="nemodar3"> </iframe>
+        	<iframe width="600" height="300" id="nemodar4"> </iframe>
+
+        </main>
+    </div>
+</body>
+
+</html>
+<script src="../javascripts/dashboard.js"></script>

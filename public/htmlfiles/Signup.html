@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="../stylesheets/Signup.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+	 crossorigin="anonymous">
+
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/css/alertify.min.css"/>
+
+	<title>SignUp Page</title>
+	<style>
+
+
+	</style>
+
+</head>
+
+
+<body>
+	<div class="logo-signup all" id="myMain">
+		<img src="https://img.icons8.com/color/50/000000/heroku.png" class="logo">
+
+		<div class="signup logo-signup">
+			<form action="">
+				<h1 class="signup-title">Sign Up</h1>
+				<i class="fas fa-user icons"></i>
+				<p class="fas"> |</p>
+				<input type="text" class="signup-input js-groupname" placeholder="Group Name" autofocus>
+				<i class="fas fa-keyboard icons"></i>
+				<p class="fas"> |</p>
+				<input type="text" class="signup-input js-tsnumber" placeholder="ThingSpeak Number" autofocus>
+				<i class="fas fa-lock icons"></i>
+				<p class="fas"> |</p>
+				<input type="password" class="signup-input js-password" placeholder="Password">
+				<i class="fas fa-lock icons"></i>
+				<p class="fas"> |</p>
+				<input type="password" class="signup-input js-re-password" placeholder="Repeat Password">
+				<div class="users">
+					<button type="button" class="name" onclick="textBoxCreate()">Add Users +</button>
+					<p id="myForm"></p>
+				</div>
+				<input type="button" value="Sign Up" class="signup-button js-button" onclick="Sign_Up()" >
+				<h4 class="signup-lost">Already Signed Up? &nbsp<a href="../htmlfiles/Login.html"><u>Login</u></a></h4>
+			</form>
+		</div>
+	</div>
+</body>
+<footer style="border-top-style:none">
+	<em>
+		<h4 align="center" style="color: orange">&nbsp;Designed by: </br>
+			&nbsp;&nbsp;IOT Students</br>
+			&nbsp;&nbsp;&nbsp;fall 97 ;) </h4><em>
+			<div align="center" class="copyright">
+				© 2017 My Blog. All rights reserved.
+			</div>
+</footer>
+
+</html>
+<script src="../javascripts/Signup.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/alertify.min.js"></script>
